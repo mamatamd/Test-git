@@ -2,27 +2,32 @@
     box-sizing: border-box;
     font-family: roboto;
 }
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
 .section-bg{
-    background-image: url(images/beach3.jpeg);
+    background-image: url(images/beach4.jpg) ;
+    background-color: rgba(248, 247, 216, 0.7);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: 50% 0%;
-    position: absolute;
-    top: 0;
-    left: 0;
+    background-position: 50% 90%;
     width: 100%;
-    height: 100%;
-   
-  }
+    overflow: hidden;
+    }
   .layer {
-    background-color: rgba(24, 24, 23, 0.363);
+    background-color: rgba(24, 24, 23, 0.25);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-   
+    height: 98%;
 }
 .header-width{
     width: 100%;
@@ -59,11 +64,91 @@
     font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 0.8px;
+   
   }
   .bannar-text{
-     width: 20px;
-     background: salmon;
+     width:100%;
+     text-align: center;
+     font-size: 60px;
+     color: #fff;
+     position: relative;
+     letter-spacing: 0.8px;
+     margin: 13% 0 5% 0;
+     text-transform: uppercase;
+     font-weight: 500;
   }
- 
-  
-
+  .button{
+    width: 100%;
+    text-align: -webkit-center;
+    position: relative;
+    margin: 0 0 180px 0;
+  }
+  .button-text{
+    font-size: 16px;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    width: 173px;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+    text-transform: capitalize;
+    position: relative;
+  }
+  .room-check{
+      width: 100%;
+      height: 50%;
+      text-align: -webkit-center;
+     
+ }
+  .chck-form{
+    background:rgb(216, 230, 238);
+    position: relative;
+    bottom: 49px;
+    opacity: 0.9;
+    width: 90%;
+    height: 160px;
+    padding: 0 0 0 65px;
+    
+  }
+ .form-style{
+    width: 20%;
+    float: left;
+    margin: 32px 20px;
+     
+ }
+  .text-left{
+      text-align: left;
+      margin: 15px 15px 0 15px;
+  }
+  .input-text{
+    border: 1px solid rgba(0, 0, 0, 0.42);
+    border-radius: 3px;
+    padding: 5px 15px;
+    margin: 10px 0 15px 0;
+    background:#fff;
+  }
+  .fa-calendar{
+    color: #333;
+    position: relative;
+    bottom:19px;
+    float:right;
+  }
+  .input-container{
+    box-shadow: 0 60px 100px 0 rgba(173, 188, 205, 0.808);
+    overflow: hidden;
+    border: 0 solid rgba(255,255,255,1);
+    border-radius: 4px;
+  }
+.book-button{
+    border: 1px solid;
+    width: 180px;
+    background: #018CB9;
+    color: #fff;
+    padding: 8px 11px;
+    border-radius: 3px;
+}
+.rooms-gallery{
+    text-align: center;
+    font-size: 32px;
+    color: #015880;
+    margin: 20px 0;
